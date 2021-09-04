@@ -1,0 +1,85 @@
+@import url('https://fonts.googleapis.com/css2?family=Audiowide&family=Open+Sans&display=swap');
+
+/* RESETEAR CONFIGURACIÓN QUE AGREGA EL NAVEGADOR - QUITA ESPACIOS*/
+
+html, body,h1, h2, h4, ul, li { margin: 0; padding: 0;}
+/*SELECTORES DE ETIQUETAS */
+body{background-image: url(../imagenes/feriafondo.jpg);
+     font-family:'Open Sans', sans-serif;}
+
+/*div { border: 1px solid red;}*/
+/* selectores personalizados */
+.contenedor-dibujadxs2{margin: 0 auto;
+                       width: 1285px;
+                       background-color:rgba(300,300,300,0.7);} /*transparecia color caja*/
+
+h1, h2, h3 { font-family: 'Audiowide', cursive;}
+
+.cabeza-dibujadxs2 {text-align: center;
+                    padding:  10px;
+                    background-color:#FF7000;}
+
+.h2 {text-align: center;
+     padding:  10px;  }
+
+
+.banda-dibujadxs2{background-color: black;}
+
+.cuerpo-dibujadxs2{padding: 10px;}
+
+.menu {display: inline-block;
+       padding: 10px;
+       list-style: none;}
+/* .menu cambió el listado de horizontal a vertical*/
+
+.destacado_verde {background-color: #26F060;
+                 display: inline-block;
+                 border-radius: 10px;
+                 text-align: justify;
+                 margin: 10px;
+                 padding-top: 20px;
+                 padding-left: 20px;
+                 padding-right: 20px;}
+
+.listado {background-color: #26F060;
+          border-radius: 10px;
+          margin: 10px;
+          padding-top: 20px;}
+
+.vinculo {color: white;
+          text-decoration: none;
+          padding: 10px;}
+
+.vinculo:hover {color: black;
+                background-color: white;
+                text-decoration: none;}
+
+.adaptable{width:100%;
+           height: auto;
+           display: block;
+           margin: auto;
+           border-radius: 10px;}
+
+.videoincrustado{display: block;
+                 margin: auto;}
+
+.logo {display: block;
+       width: 1000px;
+       margin: auto;}
+
+.pie {background-color: white;
+      border-radius: 10px;
+      margin: 10px;
+      padding-top: 5px;
+      padding-left: 10px;
+      padding-right: 20px;}
+
+.icono_redes {display: inline-block;
+              margin: 10px;}
+
+.h5{padding-left: 920px;}
+
+@media screen and (mas-width: 800px) {
+  .contenedor-dibujadxs2 {
+    width: 100%;}
+ }  /* RESPONSIVE*/
